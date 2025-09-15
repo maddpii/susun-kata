@@ -1,0 +1,19 @@
+[
+    {
+      "qustion": ["y", "n", "a", "i", "y","n"],
+      "answer": "nyanyi"
+    },
+
+    {
+      "qustion": ["a", "s", "p", "e","e","d"],
+      "answer": "sepeda"
+     
+    },
+
+    {
+      "qustion": ["i", "a", "l", "r"],
+      "answer": "lari"
+    }
+    
+    
+]

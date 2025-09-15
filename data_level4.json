@@ -1,0 +1,15 @@
+[
+    {
+      "qustion": ["o", "m", "t", "n", "e", "y"],
+      "answer": "monyet"
+    },
+    {
+      "qustion": ["c", "n", "k", "i", "u","g"],
+      "answer": "kucing"
+     
+    },
+    {
+      "qustion": ["b", "k", "e", "e","b"],
+      "answer": "bebek"
+    }
+]
