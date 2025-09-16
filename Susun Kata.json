@@ -5102,6 +5102,36 @@
                 "70",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "step_level.level3",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "step_level.level2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "step_level.level1",
+                "=",
+                "0"
+              ]
             }
           ],
           "events": [
@@ -5432,22 +5462,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"loadingscreen\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "step_level.level1",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"loadingscreen\"",
+                ""
               ]
             }
           ],
@@ -5507,22 +5537,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"loadingscreen\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "step_level.level2",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"loadingscreen\"",
+                ""
               ]
             }
           ],
@@ -5587,22 +5617,22 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"loadingscreen\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "step_level.level3",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"loadingscreen\"",
+                ""
               ]
             }
           ],
@@ -21030,7 +21060,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6672773998329974,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22665,42 +22695,6 @@
                         ""
                       ]
                     }
-                  ],
-                  "events": [
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::CompareNumbers"
-                          },
-                          "parameters": [
-                            "loop",
-                            "=",
-                            "3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Scene"
-                          },
-                          "parameters": [
-                            "",
-                            "\"scene menang\"",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
                   ]
                 }
               ]
@@ -22829,22 +22823,22 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"scene kalah\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
                         "scenekalah.soal3_2",
                         "=",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"scene kalah\"",
+                        ""
                       ]
                     }
                   ]
@@ -22898,42 +22892,6 @@
                         "",
                         "\"scene menang\"",
                         ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::CompareNumbers"
-                          },
-                          "parameters": [
-                            "loop",
-                            "=",
-                            "3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Scene"
-                          },
-                          "parameters": [
-                            "",
-                            "\"scene menang\"",
-                            ""
-                          ]
-                        }
                       ]
                     }
                   ]
