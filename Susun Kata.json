@@ -1,7 +1,7 @@
 {
   "firstLayout": "awal mulai",
   "gdVersion": {
-    "build": 238,
+    "build": 239,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "name": "Susun Kata",
     "description": "",
     "author": "",
@@ -3164,7 +3164,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210173,
+        "zoomFactor": 0.49508400737488867,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3513,6 +3513,15 @@
             },
             {
               "type": {
+                "value": "DeleteGroupFichier"
+              },
+              "parameters": [
+                "\"games\"",
+                "\"game\""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -3528,17 +3537,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "DeleteGroupFichier"
-              },
-              "parameters": [
-                "\"games\"",
-                "\"game\""
-              ]
-            }
-          ]
+          "actions": []
         }
       ],
       "layers": [
@@ -3715,7 +3714,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513977,
+        "zoomFactor": 0.5117784035210173,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4103,22 +4102,6 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 2.0247e-320
-            },
-            {
-              "name": "EllipseMovement",
-              "type": "EllipseMovement::EllipseMovement",
-              "RadiusX": 0,
-              "RadiusY": 3,
-              "LoopDuration": 4,
-              "InitialTurningLeft": false,
-              "InitialDirectionAngle": 0,
-              "ShouldRotate": false,
-              "RotationOffset": 0,
-              "CenterX": 0,
-              "CenterY": 0,
-              "MovementAngle": 0,
-              "OldX": 2.0247e-320,
-              "OldY": 2.0247e-320
             }
           ],
           "animations": [
@@ -4548,22 +4531,6 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 2.0247e-320
-            },
-            {
-              "name": "EllipseMovement",
-              "type": "EllipseMovement::EllipseMovement",
-              "RadiusX": 0,
-              "RadiusY": 3,
-              "LoopDuration": 4,
-              "InitialTurningLeft": false,
-              "InitialDirectionAngle": 0,
-              "ShouldRotate": false,
-              "RotationOffset": 0,
-              "CenterX": 0,
-              "CenterY": 0,
-              "MovementAngle": 0,
-              "OldX": 2.0247e-320,
-              "OldY": 2.0247e-320
             }
           ],
           "animations": [
@@ -4673,24 +4640,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "EllipseMovement",
-              "type": "EllipseMovement::EllipseMovement",
-              "RadiusX": 0,
-              "RadiusY": 3,
-              "LoopDuration": 4,
-              "InitialTurningLeft": false,
-              "InitialDirectionAngle": 0,
-              "ShouldRotate": false,
-              "RotationOffset": 0,
-              "CenterX": 0,
-              "CenterY": 0,
-              "MovementAngle": 0,
-              "OldX": 2.0247e-320,
-              "OldY": 2.0247e-320
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "mati",
@@ -5005,18 +4955,7 @@
             }
           ],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
+          "behaviors": [],
           "content": {
             "IsChecked": false
           }
@@ -5166,52 +5105,36 @@
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "step_level.level3",
                 "=",
                 "0"
-=======
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "menu2",
-                "EllipseMovement",
-                ""
->>>>>>> 6199de9f698f64448c986d5c67248fb28d87c827
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "step_level.level2",
                 "=",
                 "0"
-=======
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "menu3",
-                "EllipseMovement",
-                ""
->>>>>>> 6199de9f698f64448c986d5c67248fb28d87c827
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "step_level.level1",
                 "=",
                 "0"
-=======
+              ]
+            },
+            {
+              "type": {
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
               },
               "parameters": [
@@ -5228,7 +5151,6 @@
                 "suara",
                 "",
                 ""
->>>>>>> 6199de9f698f64448c986d5c67248fb28d87c827
               ]
             }
           ],
@@ -5271,16 +5193,6 @@
                       "parameters": [
                         "lock",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "menu2",
-                        "EllipseMovement",
-                        "yes"
                       ]
                     },
                     {
@@ -5351,16 +5263,6 @@
                         "Animation",
                         "=",
                         "\"nyla\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "menu2",
-                        "EllipseMovement",
-                        "yes"
                       ]
                     },
                     {
@@ -5450,16 +5352,6 @@
                     },
                     {
                       "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "menu3",
-                        "EllipseMovement",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
@@ -5534,16 +5426,6 @@
                         "Animation",
                         "=",
                         "\"nyala\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "menu3",
-                        "EllipseMovement",
-                        "yes"
                       ]
                     },
                     {
@@ -5886,7 +5768,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
               },
               "parameters": [
-                "musik",
+                "suara",
                 "yes",
                 ""
               ]
@@ -5896,7 +5778,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
               },
               "parameters": [
-                "suara",
+                "musik",
                 "yes",
                 ""
               ]
@@ -5979,7 +5861,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
               },
               "parameters": [
-                "musik",
+                "suara",
                 "",
                 ""
               ]
@@ -5989,7 +5871,7 @@
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
               },
               "parameters": [
-                "suara",
+                "musik",
                 "",
                 ""
               ]
@@ -6628,10 +6510,6 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
-          "name": "EllipseMovement",
-          "type": "EllipseMovement::EllipseMovement"
-        },
-        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -6669,7 +6547,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7370816317994028,
+        "zoomFactor": 0.8700232859857289,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7048,6 +6926,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -7090,6 +6969,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         }
@@ -21240,11 +21120,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-<<<<<<< HEAD
         "zoomFactor": 0.6672773998329974,
-=======
-        "zoomFactor": 0.5290357402156838,
->>>>>>> 6199de9f698f64448c986d5c67248fb28d87c827
         "windowMask": false
       },
       "objectsGroups": [],
